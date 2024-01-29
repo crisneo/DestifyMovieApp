@@ -1,9 +1,9 @@
 import axios from "axios";
 
 export const getMovies = ()=>{
-    return axios.get("https://localhost:7073/api/v1/movie");
+    return axios.get(`${import.meta.env.VITE_API_URL}/api/v1/movie`);
 };
 
 export const getActors = ()=>{
-     return axios.get("https://localhost:7073/api/v1/actor");
+     return axios.get(`${import.meta.env.VITE_API_URL}/api/v1/actor`);
 };

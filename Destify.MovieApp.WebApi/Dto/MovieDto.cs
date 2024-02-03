@@ -14,7 +14,7 @@ namespace Destify.MovieApp.WebApi.Dto
     public class MovieReadDto : MovieDto
     {
         public int Id { get; set; }
-        public IEnumerable<MovieRatingReadDto> Ratings { get; set; }
+        public IEnumerable<MovieRatingReadDto> MovieRatings { get; set; }
 
     }
 

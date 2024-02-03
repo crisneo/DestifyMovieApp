@@ -14,6 +14,7 @@ namespace Destify.MovieApp.WebApi.MappingProfiles
             CreateMap<Actor, ActorReadDto>();
             CreateMap<ActorPostDto, Actor>();
             CreateMap<ActorPutDto, Actor>();
+            CreateMap<MovieRating, MovieRatingReadDto>();
         }
     }
 }
